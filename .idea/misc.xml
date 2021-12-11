@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WeatherForecast/app/src/main/res/drawable/ic_launcher_background.xml" value="0.190625" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/drawable/main_background.xml" value="0.1" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/drawable/main_color.xml" value="0.1" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/drawable/select_background.xml" value="0.1796875" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/activity_select_city.xml" value="0.22" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/activity_splash.xml" value="0.11639492753623189" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/attention_city.xml" value="0.11639492753623189" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/select_history_city.xml" value="0.16354166666666667" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/layout/weather_itme.xml" value="0.11639492753623189" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1796875" />
+        <entry key="..\:/WeatherForecast/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

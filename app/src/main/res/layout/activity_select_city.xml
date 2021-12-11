@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_city"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F5F5"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="cn.bistu.edu.cs.weatherforecast.SelectCityActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/city_textview"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_background"
+                android:completionThreshold="1"
+                android:hint="搜索城市"
+                android:padding="16dp"
+                android:textColor="#8ED9E3" />
+
+            <Button
+                android:id="@+id/done_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="6dp"
+                android:background="#8ED9E3"
+                android:text="查看"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="10dp"
+            android:text="搜索历史"
+            android:textColor="#5C5656"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/select_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:divider="@null"
+            />
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="关注列表"
+            android:textAlignment="center"
+            android:textColor="#1E1D1D"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
